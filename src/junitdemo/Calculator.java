@@ -16,5 +16,12 @@ public class Calculator {
 		}
 		return (a/b);
 	}
+	public static void main(String[] args) {
+		Calculator c=new Calculator();
+		System.out.println("Addition: "+c.add(3.4,7.8));
+		System.out.println("Subtraction: "+c.subtract(9.4,7.8));
+		System.out.println("Products: "+c.multiply(3.0,9.0));
+		System.out.println("Division: "+c.divide(6.0,3.0));
+	}
 
 }
